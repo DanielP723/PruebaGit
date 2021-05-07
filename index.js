@@ -2,8 +2,8 @@ const express = require("express")
 
 var app = express()
 
-app.get("/",function(request, response){
-        response.send("Hola Mundo")
+app.get("/other",function(request, response){
+        response.send("Búcaros")
 })
 
 app.listen(10000, function(){
