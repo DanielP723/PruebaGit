@@ -7,5 +7,5 @@ app.get("/",function(request, response){
 })
 
 app.listen(10000, function(){
-    console.functonlog("App started in port 10000")
+    console.log("App started in port 10000")
 })
